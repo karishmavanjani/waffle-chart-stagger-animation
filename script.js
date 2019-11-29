@@ -88,22 +88,22 @@ const data = [{
 //intitiate paused animation
 let anim = new TimelineLite({paused: false});
 
-anim.staggerTo(".label",0.5,{
+// anim.staggerTo(".label",0.5,{
 
-  scale:1,
-  ease: Power1.easeOut,
+//   scale:1,
+//   ease: Power1.easeOut,
 
-    stagger: {
-    grid: "auto",
-    from: "start",
-    axis: "y",
-    each: 0.07
-  }
+//     stagger: {
+//     grid: "auto",
+//     from: "start",
+//     axis: "y",
+//     each: 0.07
+//   }
 
 
-});
+// });
 
-anim.staggerTo(".box", 1, {
+anim.staggerTo(".box", 0.7, {
   scale: 1,
   ease: Power1.easeOut,
   stagger: {
