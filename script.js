@@ -103,7 +103,7 @@ let anim = new TimelineLite({paused: false});
 
 // });
 
-anim.staggerTo(".box", 0.7, {
+anim.staggerTo(".box", 0.2, {
   scale: 1,
   ease: Power1.easeOut,
   stagger: {
